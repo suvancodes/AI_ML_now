@@ -1,0 +1,21 @@
+Product_ID,Name,Category,Price,Stock_Quantity,Supplier,prise_missing,New_Price
+P001,Laptop,Electronics,70000.0,50.0,Supplier A,70000.0,140000.0
+P002,Smartphone,Electronics,25000.0,100.0,Supplier B,25000.0,50000.0
+P003,Tablet,Electronics,18000.0,,Supplier C,18000.0,36000.0
+P004,Monitor,Accessories,12000.0,70.0,,12000.0,24000.0
+P005,Keyboard,Accessories,,120.0,Supplier D,12718.75,
+P006,Mouse,Accessories,1500.0,200.0,Supplier E,1500.0,3000.0
+P007,Headphones,Accessories,3000.0,,Supplier F,3000.0,6000.0
+P008,Webcam,Accessories,2500.0,85.0,Supplier G,2500.0,5000.0
+P009,Printer,Accessories,6000.0,40.0,,6000.0,12000.0
+P010,Scanner,Accessories,,25.0,Supplier H,12718.75,
+P011,Speaker,Accessories,2200.0,150.0,Supplier I,2200.0,4400.0
+P012,Router,Electronics,3400.0,,Supplier J,3400.0,6800.0
+P013,Projector,Electronics,35000.0,30.0,,35000.0,70000.0
+P014,USB Hub,Accessories,900.0,300.0,Supplier K,900.0,1800.0
+P015,Charger,Accessories,,180.0,Supplier L,12718.75,
+P016,SSD 1TB,Electronics,6500.0,75.0,,6500.0,13000.0
+P017,HDD 2TB,Electronics,5000.0,60.0,Supplier M,5000.0,10000.0
+P018,Graphics Card,Electronics,,20.0,Supplier N,12718.75,
+P019,Motherboard,Electronics,8500.0,,Supplier O,8500.0,17000.0
+P020,Power Supply,Electronics,4000.0,90.0,,4000.0,8000.0

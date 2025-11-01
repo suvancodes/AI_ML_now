@@ -1,0 +1,7 @@
+2025-08-02 20:23:39 => DEBUG => add function is called
+2025-08-03 11:52:06 => DEBUG => adding 12 and 12
+2025-08-03 12:03:08 => DEBUG => adding 1 + 2 = 3
+2025-08-03 12:03:08 => DEBUG => substract 2 - 1 = 1
+2025-08-03 12:03:08 => DEBUG => multpling  2 * 2 = 4
+2025-08-03 12:03:08 => ERROR => this is a ZeroDivisionError
+2025-08-03 12:03:08 => DEBUG => adding 12 + 12 = 24

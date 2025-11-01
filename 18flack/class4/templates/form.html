@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result Form</title>
+</head>
+<body>
+  <h2>Student Result Form</h2>
+  
+  <form action='/form' method="post">
+    <label for="name">Student Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+    
+    <label for="math">Math Result:</label><br>
+    <input type="number" id="math" name="math" placeholder="Enter Math marks" min="0" max="100" required><br><br>
+    
+    <label for="che">Chemistry Result:</label><br>
+    <input type="number" id="che" name="che" placeholder="Enter Chemistry marks" min="0" max="100" required><br><br>
+    
+    <label for="phy">Physics Result:</label><br>
+    <input type="number" id="phy" name="phy" placeholder="Enter Physics marks" min="0" max="100" required><br><br>
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+
+</body>
+</html>
