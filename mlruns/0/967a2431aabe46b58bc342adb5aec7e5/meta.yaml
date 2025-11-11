@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/967a2431aabe46b58bc342adb5aec7e5/artifacts
+end_time: 1762178258694
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 967a2431aabe46b58bc342adb5aec7e5
+run_name: resilient-swan-778
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762178255791
+status: 4
+tags: []
+user_id: apple
