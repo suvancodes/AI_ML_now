@@ -1,1 +1,53 @@
+# Virtual environments
+venv/
 .venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.*
+
+# System files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# MLflow / experiments
+mlruns/
+artifacts/
+
+# Temporary / data files
+*.csv
+*.tsv
+*.dat
+*.npy
+*.npz
+
+# Model files
+*.pkl
+*.h5
+*.joblib
+*.pt
+*.pth
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Other local stuff
+*.swp
+*.bak
+*.tmp
