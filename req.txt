@@ -8,4 +8,6 @@ streamlit
 scikit-learn
 imblearn
 statsmodels
-mlflow==2.5.0
+nltk
+xgboost
+
