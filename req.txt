@@ -10,4 +10,5 @@ imblearn
 statsmodels
 nltk
 xgboost
-nltk_data
+
+dill
