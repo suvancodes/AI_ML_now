@@ -1,4 +1,4 @@
-Product_ID,Name,Category,Price,Stock_Quantity,Supplier,prise_missing,New_Price
+Product_ID,Product_Name,Category,Price,Stock_Quantity,Supplier,prise_missing,New_Price
 P001,Laptop,Electronics,70000.0,50.0,Supplier A,70000.0,140000.0
 P002,Smartphone,Electronics,25000.0,100.0,Supplier B,25000.0,50000.0
 P003,Tablet,Electronics,18000.0,,Supplier C,18000.0,36000.0

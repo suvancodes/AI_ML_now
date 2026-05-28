@@ -41,6 +41,7 @@ artifacts/
 *.joblib
 *.pt
 *.pth
+*.model
 
 # Build / distribution
 build/
@@ -51,3 +52,7 @@ dist/
 *.swp
 *.bak
 *.tmp
+
+# Local project folders (don't commit from this umbrella repo)
+/0project-ML/Bank Loan Approval prediction/
+/0project-ML/loan_approval-_predictor/

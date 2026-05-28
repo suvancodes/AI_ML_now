@@ -25,6 +25,7 @@ class DataIngestion:
 
             os.makedirs(os.path.dirname(self.config.train_data_path), exist_ok=True)
             df.to_csv(self.config.raw_data_path, index=False)
+            print(df.corr())
 
             train, test = train_test_split(df, test_size=0.2, random_state=42)
 
