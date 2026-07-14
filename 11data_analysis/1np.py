@@ -12,9 +12,12 @@ import numpy as np
 # create a 2d array
 
 # arr2 = np.array([1, 2, 3, 4, 5])
-
-# arr2.reshape(1,5)  # reshape the array to 1 row and 5 columns
+# print(arr2.ndim)  # shape of the array (no_row,no_col)
+# print(arr2)  # it tell the dimsion of the array
+# arr2 = arr2.reshape(1,5)  # reshape the array to 1 row and 5 columns
+# print(arr2.shape)  # shape of the array (no_row,no_col)
 # print(arr2)
+
 
 # create a 2d array directly
 
@@ -28,9 +31,9 @@ import numpy as np
 # print(arr2)
 # print(arr2.shape)
 
-# np.arange('start_ele','end_ele - 1','stap')
+## np.arange('start_ele','end_ele - 1','stap')
 
-# print(np.arange(0,10,2).reshape(5,1))
+# print(np.arange(0,10,2).reshape(1,5)) # it make a array from 0 to 9 with step of 2 and reshape it to 1 row and 5 columns
 
 # np.ones(('no_row','no_col')) -> it make a mayrix who's all element are one
 
@@ -52,7 +55,7 @@ import numpy as np
 # arr1 = np.array([1,2,3,4,5])
 # arr = np.array([1,2,3,4,5])
 
-# # addition
+# # # addition
 # print(arr1+arr)
 
 
@@ -60,16 +63,16 @@ import numpy as np
 
 # arr = np.array([2,3,4,5,6])
 
-# # squre root
+# # # squre root
 # print(np.sqrt(arr))
 
-# # expontial
+# # # expontial
 # print(np.exp(arr))
 
-# # sine 
+# # # sine 
 # print(np.sin(arr))
 
-# # log
+# # # log
 # print(np.log(arr))
 
 # indexing and sliceing
@@ -77,8 +80,8 @@ import numpy as np
 # arr = np.array([[1,2,3],[4,5,6],[7,8,9]])
 # print(arr)
 
-# print(arr[1:,1:])
-# print(arr[0:2,1:])
+# print(arr[1:,1:]) # it will print the element from 1st row and 1st column to the end of the array
+# print(arr[0:,1:]) 
 
 # print(arr[1:,1:])
 
@@ -88,7 +91,7 @@ import numpy as np
 # arr[0,0] = 100
 # print(arr)
 
-# by sliceing
+# # #by sliceing
 # arr[1:] = 100
 # print(arr)
 
