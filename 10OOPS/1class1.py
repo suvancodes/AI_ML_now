@@ -1,4 +1,4 @@
-# creating a class 
+# # creating a class 
 # class car:
 #     pass
 
@@ -6,7 +6,7 @@
 # print(type(bmw))
 # print(bmw)
 
-            # Instance variable
+#         #     Instance variable
 # class dog:
 #     # constructor
 #     def __init__(self,name,age):
@@ -21,7 +21,7 @@
 # print(dog1.name)
 # print(dog1.age)
 
-        # Instance mathod
+#         # Instance mathod
         
 # class dog:
 #     def __init__(self,name,age):
@@ -36,7 +36,7 @@
 # print(dog1.bark())
     
     
-        # modling bank account 
+#         # modling bank account 
         
         
 # class bank:
@@ -46,8 +46,11 @@
 #         pass
 #     def diposit(self,amount):
 #         self.balance += amount 
+#         print(f'hey {self.name} {amount}$ diposit to your acccount')
 #     def withdrew(self,amount):
 #         self.balance-= amount
+#         print(f'hey {self.name} {amount}$ withdrew to your account')
+        
 # bank1 = bank('subho',25000)
 # bank1.diposit(60000)
 # print(bank1.balance)

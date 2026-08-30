@@ -54,16 +54,16 @@ class person:
         pass
     # getter mathod-> here we can get the value of private variable
     def get_name(self):
-        return self.__name
+        return self.__name,self.__age
     
     # setter mathod-> here we can change the value of private variable
     def change_name(self,name):
         self.__name = name
         return self.__name
-    
-        
-    
-    
+
+
+
+
 
 p = person('subho',18,'3rd sam')
 

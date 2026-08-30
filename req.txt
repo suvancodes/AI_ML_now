@@ -12,4 +12,7 @@ nltk
 xgboost
 phonenumbers
 dill
-tensorflow
+jupyterlab
+ipython-sql
+sqlalchemy
+pymysql
